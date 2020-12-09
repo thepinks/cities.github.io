@@ -1,0 +1,44 @@
+@import './variables';
+
+header {
+    width: 64rem;
+    background-size: 64rem 400px;
+    background-position: center -5%;
+}
+
+nav {
+    width: 64rem;
+}
+
+main {
+    width: 64rem;
+}
+
+.hero {
+    width: 64rem;
+    h3 {
+        margin-top: 350px;
+    }
+}
+
+.content {
+    width: 64rem;
+}
+
+.cards {
+    width: 64rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-solid-color {
+    h3 {
+        font-size: 16pt;
+    }
+    p {
+        font-size: 32pt;
+    }
+}
+
+footer {
+    width: 64rem;
+}
